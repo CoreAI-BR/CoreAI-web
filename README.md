@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
+# CoreAI - O Futuro do Trabalho
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Resumo do Projeto
 
-Currently, two official plugins are available:
+CoreAI é uma plataforma web colaborativa voltada à conexão entre profissionais de diferentes áreas, incentivando o desenvolvimento de competências, a troca de experiências e a colaboração entre talentos. Similar ao LinkedIn, a aplicação permite explorar perfis profissionais, visualizar informações detalhadas e interagir através de recomendações e mensagens.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Funcionalidades
 
-## React Compiler
+- ✅ Visualização de 60+ perfis profissionais
+- ✅ Cards com informações básicas (foto, nome, cargo, skills)
+- ✅ Modal detalhado com informações completas do profissional
+- ✅ Sistema de busca por nome, cargo ou habilidade
+- ✅ Filtros por área e cidade
+- ✅ Botões funcionais de "Recomendar" e "Enviar Mensagem"
+- ✅ Dark Mode integrado
+- ✅ Design responsivo e moderno
+- ✅ Animações suaves e interface intuitiva
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔐 Usuários e Senhas
 
-## Expanding the ESLint configuration
+Esta aplicação não possui sistema de autenticação. Todos os dados são simulados e disponíveis publicamente para visualização.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 💻 Instalação do Projeto
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Pré-requisitos
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Node.js (versão 16 ou superior)
+- npm ou yarn
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Passos para instalação
+
+1. Clone o repositório:
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd <NOME_DO_PROJETO>
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
 ```
+
+3. Execute o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+# ou
+yarn dev
+```
+
+4. Acesse a aplicação em: `http://localhost:8080`
+
+### Build para produção
+
+```bash
+npm run build
+# ou
+yarn build
+```
+
+## 🔗 Link do Repositório
+
+[Adicionar link do repositório aqui após criação no GitHub]
+
+## 👥 Integrantes do Grupo
+
+- **Leonardo Eiji Kina** - RM 562784
+- **Tomé Rossi Giani** - RM 562422
+- **Nicholas Braga de Souza** - RM 561733
+
+## 🛠️ Tecnologias Utilizadas
+
