@@ -71,7 +71,7 @@ const Index = () => {
                 <Users className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-foreground">ProConnect</h1>
+                <h1 className="text-2xl font-bold text-foreground">CoreAI</h1>
                 <p className="text-sm text-muted-foreground">O Futuro do Trabalho</p>
               </div>
             </div>
