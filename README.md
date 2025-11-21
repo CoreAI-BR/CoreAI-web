@@ -4,6 +4,9 @@
 
 CoreAI é uma plataforma web colaborativa voltada à conexão entre profissionais de diferentes áreas, incentivando o desenvolvimento de competências, a troca de experiências e a colaboração entre talentos. Similar ao LinkedIn, a aplicação permite explorar perfis profissionais, visualizar informações detalhadas e interagir através de recomendações e mensagens.
 
+### 🎨 Protótipo no Figma  
+[👉 Acessar protótipo CoreAI no Figma](https://www.figma.com/design/r9DLEixRT7HsxsrW4BYAoj/CoreAI-web?node-id=0-1&t=R5opj8B7zw9AW3YP-1)
+
 ### Funcionalidades
 
 - ✅ Visualização de 60+ perfis profissionais
